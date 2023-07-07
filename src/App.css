@@ -1,0 +1,64 @@
+
+.nav-cart-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerr {
+  background-color: #212529;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 61px;
+  padding: 10px;
+}
+h3 {
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+}
+.cart-div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+.cart-ele {
+  background-color: white;
+  color: #212529; 
+  border: solid 2px;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 20px; 
+}
+.cart-ele:hover {
+  background-color: #212529;
+  color: white;
+  cursor: pointer;
+  border: solid 2px;
+}
+
+.cards-main {
+  text-align: center;
+}
+.card {
+  margin: 20px;
+  border: solid 2px rgba(0, 0, 0, 0.125);
+  padding: 5px;
+}
+
+.bi-star-fill {
+  color: #ffd700;
+}
+.star {
+  margin-bottom: 16px;
+}
+.btn {
+  background-color: transparent;
+  border: solid 1px black;
+}
+.btn:hover {
+  background-color: #212529;
+  color: white;
+}
